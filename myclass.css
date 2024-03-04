@@ -3,12 +3,19 @@
       background: linear-gradient(90deg, rgba(158,176,147,1) 0%, rgba(132,169,140,1) 25%, rgba(82,121,111,1) 50%, rgba(53,79,82,1) 75%, rgba(47,62,70,1) 100%);
       padding-top: 30px;
       padding-bottom: 30px;
-      margin: 0px;
+      
 }
 h1{
       color: white;
       font-family: helvetica;
       text-align: center;
 }
+body{
+      margin: 0px;
+}
+.corpo{
+      margin: 8px;
+}
+
 
 
