@@ -1,6 +1,4 @@
-<html>
-  <head>
-    <style>
+
       .background-top{
         background: rgb(158,176,147);
         background: linear-gradient(90deg, rgba(158,176,147,1) 0%, rgba(132,169,140,1) 25%, rgba(82,121,111,1) 50%, rgba(53,79,82,1) 75%, rgba(47,62,70,1) 100%);
@@ -12,6 +10,7 @@
         font-family: helvetica;
         text-align: center;
       }
-    </style>
-  </head>
-</html>
+      body{
+        margin: 0px;
+      }
+
