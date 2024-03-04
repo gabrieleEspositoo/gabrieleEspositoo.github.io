@@ -19,9 +19,19 @@
         font-weight: 900;
         font-style: italic;
         font-variation-settings: "slnt" 0;
+
+        text-transform: uppercase;
+        animation: flip 2s infinite;
+        animation-delay: calc(.2s * var(--i))
         
         text-align: center;
       }
+
+       @keyframes flip {
+      0%,80% {
+      transform: rotateY(360deg) 
+      }
+    }
 
     </style>
     
@@ -34,11 +44,6 @@
       </h1>
     </div>
 
-    @keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
-  }
-}
     
   </body>
 </html>
