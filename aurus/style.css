@@ -2,14 +2,7 @@
             margin: 0px;
             overflow-x: hidden;
             padding: 0px;
-            scrollbar-width: none; 
-            -ms-overflow-style: none; 
         }
-
-        body::-webkit-scrollbar {
-            display: none; /* Nascondi la barra di scorrimento per Chrome, Safari e Opera */
-        }
-
         /* INDEX */
 
         .button {
