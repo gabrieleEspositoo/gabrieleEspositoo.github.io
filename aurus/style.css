@@ -1,8 +1,11 @@
         body {
             margin: 0px;
             overflow-x: hidden;
-            overflow-y: hidden;
             padding: 0px;
+        }
+
+        body::-webkit-scrollbar {
+            display: none; /* Nascondi la barra di scorrimento per Chrome, Safari e Opera */
         }
 
         /* INDEX */
