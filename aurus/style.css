@@ -8,7 +8,19 @@
             text-decoration: none; 
             color: inherit; 
         }
+        @media (max-width: 768px) {
+                body {
+                font-size: 14px; /* Adatta la dimensione del testo */
+                padding: 10px; /* Adatta il padding */
+                }
 
+                .container {
+                width: 100%; /* Adatta la larghezza del container */
+                padding: 0 10px;
+                }
+        }
+        
+        
         /* INDEX */
 
         .button {
