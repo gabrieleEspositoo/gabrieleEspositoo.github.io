@@ -12,3 +12,7 @@ function adjustZoom() {
   window.onload = adjustZoom;
   window.onresize = adjustZoom;
 
+window.addEventListener('wheel', function(e) {
+    if(e.ctrlKey)
+        e.preventDefault();
+});
