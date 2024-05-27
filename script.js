@@ -12,13 +12,3 @@ function adjustZoom() {
   window.onload = adjustZoom;
   window.onresize = adjustZoom;
 
-
-document.addEventListener('touchmove', function(event) {
-    if (event.scale !== 1) { 
-        event.preventDefault(); 
-    }
-}, { passive: false });
-
-document.addEventListener('dblclick', function(event) {
-    event.preventDefault();
-}, { passive: false });
