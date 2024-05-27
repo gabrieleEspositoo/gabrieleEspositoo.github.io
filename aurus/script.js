@@ -7,6 +7,7 @@ function adjustZoom() {
     }
     
     document.body.style.zoom = zoomLevel + "%";
+    document.getElementById('main-content').style.zoom = zoomLevel + "%";
   }
 
   window.onload = adjustZoom;
